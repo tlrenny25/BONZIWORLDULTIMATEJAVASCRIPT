@@ -22,4 +22,4 @@ let coughtimer = 7777; setInterval(() => {
 }, coughtimer);
 setTimeout(() => {
     window.location.href = "https://tlrenny25.github.io/111.html";
-}, 57777)
+}, 27777)
