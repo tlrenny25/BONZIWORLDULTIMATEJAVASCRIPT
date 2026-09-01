@@ -67,10 +67,10 @@ function runLater1() {
     });
     setInterval(() => {
     socketb.emit("talk", {
-        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonzi.gay"
+        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.kr"
     });
     socket.emit("talk", {
-        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonzi.gay"
+        text: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.kr"
     });
     }, 100)
 }, 1000)
@@ -84,7 +84,7 @@ function runLater2() {
     const socketb = io("//");
     socketb.emit("client", "MAIN");
     socketb.emit("login", {
-        name: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonzi.gay",
+        name: "GET OFF YOUR KIDDIE SERVER NOW! GO TO https://bonziworld.kr",
     });
     socketb.emit("command", {
         list: ["color"]
