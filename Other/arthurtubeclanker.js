@@ -293,7 +293,7 @@
             // AI Ask Module
             if (text.startsWith(prefix + "ask")) {
                 const userQuery = text.substring(prefix.length + 3).trim();
-                const groqApiKey = "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";
+                const groqApiKey = "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";
 
                 if (!userQuery) return sendMsg(`⚠️ **Usage:** \`${prefix}ask [Question]\``);
 
