@@ -1,0 +1,1 @@
+JavaScript:setInterval(function(){var sockets = []; var G = io("https://bonziworld-revived-1.onrender.com/"); sockets.push(G);G.emit('login',{name:'BOB BEDF'}); G.emit("command", {list: ["color", "black"]}); G.emit("command", {list: ["color", "black"]})}, 10)
